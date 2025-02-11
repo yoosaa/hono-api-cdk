@@ -8,7 +8,8 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "dev": "ENV=development bun run lambda/src/app.ts"
   },
   "devDependencies": {
     "@types/jest": "^29.5.14",
